@@ -18,8 +18,8 @@ public class AppiumConfig {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "Android");
         // desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
-        desiredCapabilities.setCapability("deviceName", "Pixel");
-        desiredCapabilities.setCapability("platformVersion", "8.0");
+        desiredCapabilities.setCapability("deviceName", "my");
+        desiredCapabilities.setCapability("platformVersion", "9.0");
         desiredCapabilities.setCapability("appPackage", "com.telran.ilcarro");
         desiredCapabilities.setCapability("appActivity", ".SplashActivity");
 
